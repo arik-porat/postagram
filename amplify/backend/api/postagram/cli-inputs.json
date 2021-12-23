@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "postagram",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/ec2-user/environment/postagram/amplify/backend/api/postagram/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2022-12-23T20:07:21.593Z",
+      "keyDescription": "public"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authpostagram03c1d028"
+      }
+    ]
+  }
+}
